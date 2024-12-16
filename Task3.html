@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            font-size: 1.5em;
+        }
+
+        .header .menu, .header .mail {
+            font-size: 1.2em;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card h3 {
+            margin: 15px 0 10px;
+            font-size: 1.5em;
+        }
+
+        .card p {
+            font-size: 1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="menu">&#9776;</div>
+        <div>My Food</div>
+        <div class="mail">Mail</div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="./Images/cherries.jpg" alt="Sandwich">
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="card">
+            <img src="./Images/croissant.jpg" alt="Steak">
+            <h3>Let Me Tell You About This Steak</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="card">
+            <img src="./Images/popsicle.jpg"alt="Cherries">
+            <h3>Cherries, Interrupted</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="card">
+            <img src="./Images/salmon.jpg" alt="Pasta">
+            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+</body>
+</html>
